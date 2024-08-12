@@ -247,7 +247,7 @@ $black-head: #181e18;
             p {
               color: $black;
               font-weight: 300;
-
+              transition: 0.3s;
               line-height: 0px;
               font-size: 0;
             }
@@ -259,6 +259,7 @@ $black-head: #181e18;
             }
             .answer {
               p {
+                transition: 0.3s;
                 font-size: 12px;
                 line-height: 18px;
                 margin-top: 16px;
