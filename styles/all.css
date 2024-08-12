@@ -434,16 +434,14 @@ button:active {
 .answers .block-wrap .block__item .answers__list__item .answer p {
   color: #212529;
   font-weight: 300;
-  transition: 0.3s;
   line-height: 0px;
   font-size: 0;
 }
 .answers .block-wrap .block__item .answers__list__item.open .arrow {
-  transform: rotate(-90deg);
+  transform: rotate(90deg);
   transition: 0.3s;
 }
 .answers .block-wrap .block__item .answers__list__item.open .answer p {
-  transition: 0.3s;
   font-size: 12px;
   line-height: 18px;
   margin-top: 16px;
